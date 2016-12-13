@@ -36,45 +36,11 @@ layout: default
                     </div>
 
                     <div class="post-warp clearfix">
+                      {% for course in site.courses %}
                         <div class="flat-course flat-hover-zoom">
-                            <div class="featured-post">
-                                <div class="overlay">
-                                    <div class="link"></div>
-                                </div>
-                                <div class="entry-image">
-                                    <a href="courses-single.html"><img src="images/index/course1.jpg" alt="Course1"></a>
-                                </div>
-                            </div><!-- /.featured-post -->
-
                             <div class="course-content">
-                                <h4><a href="courses-single.html">Photoshop - Web Deisgn</a> </h4>
-
-                                <div class="price">$290</div>
-
-                                <ul class="course-meta review clearfix">
-                                    <li class="author">
-                                        <div class="thumb">
-                                            <img src="images/flickr/4.jpg" alt="image">
-                                        </div>
-
-                                        <div class="text">
-                                            <a href="#">Michael Windzor</a>
-                                            <p>Teacher</p>
-                                        </div>
-                                    </li>
-                                    <li class="review-stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-half"></i>
-                                        <i class="fa fa-star-o"></i>
-                                    </li>
-
-                                    <li>25 Reviews</li>
-                                </ul>
-
-                                <p> Celebrate success right, the only way, apple. To succeed you must believe. When you believe, you will succeed.</p>
-
+                                <h4><a href="{{course.url}}">{{course.title}}</a> </h4>
+                                <p>{{course.description}}</p>
                                 <ul class="course-meta desc">
                                     <li>
                                         <h6>1 year</h6>
@@ -91,11 +57,20 @@ layout: default
                                         <span> Class Duration</span>
                                     </li>
                                 </ul>
-                                <a class="flat-button orange" href="courses.html">SEE MORE</a>
                             </div><!-- /.course-content -->
                         </div>
+                        {% endfor %}
 
-    
+                        <div class="flat-course flat-hover-zoom">
+                            <div class="featured-post">
+                                <div class="overlay">
+                                    <div class="link"></div>
+                                </div>
+
+                                <div class="entry-image">
+                                    <a href="courses-single.html"><img src="/assets/images/index/course2.jpg" alt="Course1"></a>
+                                </div>
+                            </div><!-- /.featured-post -->
 
                             <div class="course-content">
                                 <h4><a href="courses-single.html">Sketch - Mobile App</a> </h4>
@@ -105,7 +80,7 @@ layout: default
                                 <ul class="course-meta review clearfix">
                                     <li class="author">
                                         <div class="thumb">
-                                            <img src="images/flickr/4.jpg" alt="image">
+                                            <img src="/assets/images/flickr/4.jpg" alt="image">
                                         </div>
 
                                         <div class="text">
@@ -152,7 +127,7 @@ layout: default
                                         <div class="link"></div>
                                     </div>
                                     <div class="entry-image">
-                                        <a href="courses-single.html"><img src="images/index/course3.jpg" alt="Course1"></a>
+                                        <a href="courses-single.html"><img src="/assets/images/index/course3.jpg" alt="Course1"></a>
                                     </div>
                                 </div><!-- /.featured-post -->
 
@@ -164,7 +139,7 @@ layout: default
                                     <ul class="course-meta review clearfix">
                                         <li class="author">
                                             <div class="thumb">
-                                                <img src="images/flickr/4.jpg" alt="image">
+                                                <img src="/assets/images/flickr/4.jpg" alt="image">
                                             </div>
 
                                             <div class="text">
@@ -211,7 +186,7 @@ layout: default
                                     <div class="link"></div>
                                 </div>
                                 <div class="entry-image">
-                                    <a href="courses-single.html"><img src="images/services/v1/4.jpg" alt="Course1"></a>
+                                    <a href="courses-single.html"><img src="/assets/images/services/v1/4.jpg" alt="Course1"></a>
                                 </div>
                             </div><!-- /.featured-post -->
 
@@ -223,7 +198,7 @@ layout: default
                                 <ul class="course-meta review clearfix">
                                     <li class="author">
                                         <div class="thumb">
-                                            <img src="images/flickr/4.jpg" alt="image">
+                                            <img src="/assets/images/flickr/4.jpg" alt="image">
                                         </div>
 
                                         <div class="text">
@@ -271,7 +246,7 @@ layout: default
                                 </div>
 
                                 <div class="entry-image">
-                                    <a href="courses-single.html"><img src="images/services/v1/5.jpg" alt="Course1"></a>
+                                    <a href="courses-single.html"><img src="/assets/images/services/v1/5.jpg" alt="Course1"></a>
                                 </div>
                             </div><!-- /.featured-post -->
 
@@ -283,7 +258,7 @@ layout: default
                                 <ul class="course-meta review clearfix">
                                     <li class="author">
                                         <div class="thumb">
-                                            <img src="images/flickr/4.jpg" alt="image">
+                                            <img src="/assets/images/flickr/4.jpg" alt="image">
                                         </div>
 
                                         <div class="text">
@@ -330,7 +305,7 @@ layout: default
                                         <div class="link"></div>
                                     </div>
                                     <div class="entry-image">
-                                        <a href="courses-single.html"><img src="images/services/v1/6.jpg" alt="Course1"></a>
+                                        <a href="courses-single.html"><img src="/assets/images/services/v1/6.jpg" alt="Course1"></a>
                                     </div>
                                 </div><!-- /.featured-post -->
 
@@ -342,7 +317,7 @@ layout: default
                                     <ul class="course-meta review clearfix">
                                         <li class="author">
                                             <div class="thumb">
-                                                <img src="images/flickr/4.jpg" alt="image">
+                                                <img src="/assets/images/flickr/4.jpg" alt="image">
                                             </div>
 
                                             <div class="text">
@@ -389,7 +364,7 @@ layout: default
                                     <div class="link"></div>
                                 </div>
                                 <div class="entry-image">
-                                    <a href="courses-single.html"><img src="images/services/v1/4.jpg" alt="Course1"></a>
+                                    <a href="courses-single.html"><img src="/assets/images/services/v1/4.jpg" alt="Course1"></a>
                                 </div>
                             </div><!-- /.featured-post -->
 
@@ -401,7 +376,7 @@ layout: default
                                 <ul class="course-meta review clearfix">
                                     <li class="author">
                                         <div class="thumb">
-                                            <img src="images/flickr/4.jpg" alt="image">
+                                            <img src="/assets/images/flickr/4.jpg" alt="image">
                                         </div>
 
                                         <div class="text">
@@ -449,7 +424,7 @@ layout: default
                                 </div>
 
                                 <div class="entry-image">
-                                    <a href="courses-single.html"><img src="images/services/v1/5.jpg" alt="Course1"></a>
+                                    <a href="courses-single.html"><img src="/assets/images/services/v1/5.jpg" alt="Course1"></a>
                                 </div>
                             </div><!-- /.featured-post -->
 
@@ -461,7 +436,7 @@ layout: default
                                 <ul class="course-meta review clearfix">
                                     <li class="author">
                                         <div class="thumb">
-                                            <img src="images/flickr/4.jpg" alt="image">
+                                            <img src="/assets/images/flickr/4.jpg" alt="image">
                                         </div>
 
                                         <div class="text">
@@ -508,7 +483,7 @@ layout: default
                                         <div class="link"></div>
                                     </div>
                                     <div class="entry-image">
-                                        <a href="courses-single.html"><img src="images/services/v1/6.jpg" alt="Course1"></a>
+                                        <a href="courses-single.html"><img src="/assets/images/services/v1/6.jpg" alt="Course1"></a>
                                     </div>
                                 </div><!-- /.featured-post -->
 
@@ -520,7 +495,7 @@ layout: default
                                     <ul class="course-meta review clearfix">
                                         <li class="author">
                                             <div class="thumb">
-                                                <img src="images/flickr/4.jpg" alt="image">
+                                                <img src="/assets/images/flickr/4.jpg" alt="image">
                                             </div>
 
                                             <div class="text">
