@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+        <div class="page-title parallax parallax4">
+        	<div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-title-heading">
+                            <h2 class="title">{{page.title}}</h2>
+                        </div><!-- /.page-title-heading -->
+                        <div class="breadcrumbs">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li>Courses Grid</li>
+                            </ul>
+                        </div><!-- /.breadcrumbs -->
+                    </div><!-- /.col-md-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /page-title parallax -->
+
+        <section class="main-content blog-posts course-single">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="blog-title-single">
+                            <h1 class="bold">{{ page.title }}</h1>
+                            <ul class="course-meta review style2 clearfix">
+                                <li class="author">
+                                    <div class="text">
+                                        <a href="#"> {{ page.teacher }}</a>
+                                        <p>Teacher</p>
+                                    </div>
+                                </li>
+                                <li class="category">
+                                    <a href="#" class="course-name">{{ page.category }}</a>
+                                    <p>Categories</p>
+                                </li>
+                                <li class="duration">
+                                    <a href="#" class="duration">{{ page.duration }}</a>
+                                    <p>Duration</p>
+                                </li>
+                            </ul>
+
+                            <div class="feature-post">
+                                <img src="/assets/images/blog/bs1.jpg" alt="image">
+                            </div><!-- /.feature-post -->
+                            <div class="entry-content actual-course-content">
+
+                                <h4>Summary</h4>
+
+                                {{content}}
+
+                            </div><!-- /.entry-post -->
+                        </div><!-- /.main-post -->
+
+                        </div><!--/.author-info -->
+                        </div><!-- /blog-title-single -->
+                    </div><!-- /col-md-8 -->
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </section><!-- /main-content -->
