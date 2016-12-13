@@ -1,9 +1,8 @@
 ---
-title: Advanced Certificate in Graphic Design
-category: Photoshop
+title: Advanced Certificate in Textile & Fashion Design
 teacher: Abdul Wahab
-duration: Six Months
-description: This course introduces one to the creative world of visual communication, and aims to broaden ones understanding of graphic design
+duration: One Year
+description: This course introduces one to the creative world of visual communication
 
 layout: course
 ---
@@ -14,28 +13,30 @@ This course focuses on the software’s as Adobe Photoshop, Adobe Illustrator an
 
 Class sessions include discussions on the elements of a good design, and practical design projects on the symbols/logos, business cards, letterheads, advertisements, CD covers, posters, labels and packaging. This course instills the knowledge and skills required by the current industry.
 
+
 #### Course Outline
 
-Tools:
-
-* Adobe illustrator
-* Adobe Photoshop
-* Adobe in design
-* Adobe Photoshop
-* Coral draw
-
-Lessons:
-
+* Adobe Illustrator
+* Adobe in Design
 * Portfolio Designing
-* Marketing Campaigns
-* Comparing Designing
-* Event Designing
-* Digital Illustration
-
-Deliverables:
-
+* Project
+* Coral Draw
+* Marketing Campaign
 * Office Stationary
 * Photo Retouching
-* Final Project
+* Adobe Photoshop
+* Comparing Designing
+* Marketing Campaign
+* Office Stationary Designing
+* Photo Retouching
+* Events Designing
+* Digital Illustration
 * Story Board
 * Children Story Books
+* After Effects
+* Premier
+* Show Reel
+* Sound Forge
+* Programs Ids
+* Short Story
+* Outdoor Shoots

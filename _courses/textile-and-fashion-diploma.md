@@ -1,8 +1,7 @@
 ---
-title: Advanced Certificate in Textile & Fashion Design
-category: Photoshop
+title: Diploma in Textile & Fashion Design
 teacher: Rameez Jabbar
-duration: Six Months
+duration: Two Years
 description: The course is divided into two interlinked disciplines of design that are Fashion and Textile
 
 layout: course
@@ -16,6 +15,7 @@ On completion, students will have a portfolio of their textile design beginnings
 
 #### Course Outline
 
+
 * Color theory
 * Principles for color application
 * Color Assignment
@@ -23,16 +23,42 @@ On completion, students will have a portfolio of their textile design beginnings
 * Introduction to Story board and Research board
 * Stenciling
 * Basic design development using single module
+* (Repeats formation)
 * Introduction to prints
+* (Baby prints)
 * Hand painting on fabric
 * Tie and Dye techniques
+* Product development
 * Resist dyeing
 * Batik technique
 * Kalamkari
+* Product development
 * Silk painting and dyeing techniques
+* Product development
 * Surface embellishment
-* (Basic stitches) using all previous techniques
+* (Basic stitches)
+* Product development using all previous techniques
 * Introduction to screen printing
+* Product development
 * One unit design formation
 * Block carving
+* Block printing
+* With carved block
+* Product development
+* Tufting and Knotting
+* Product development
+* Collage making through recycled stuff
+* Product development
+* Textures painting skills
+* Knife painting on larger scale
+* Off loom weaving
+* Off loom weaving
+* Product development
+* Introduction to On loom weaving
+* Sampling formation
+* On loom weaving (Checks formation)
+* Product development (weaving)
+* Product development (weaving)
+* Portfolio development with photography
 * Final exhibition of all the products
+*
