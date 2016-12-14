@@ -1,6 +1,6 @@
 ---
 title: Basic Certificate in Textile & Fashion Design
-teacher: Mahnoor Arif
+teacher: mahnoor
 duration: Three Months
 description: The course is divided into two interlinked disciplines of design that are Fashion and Textile
 

@@ -30,7 +30,8 @@ layout: default
                             <ul class="course-meta review style2 clearfix">
                                 <li class="author">
                                     <div class="text">
-                                        <a href="#"> {{ page.teacher }}</a>
+                                      {% assign teacher = site.data.teachers[page.teacher] %}
+                                        <a href="#"> {{ teacher.name }}</a>
                                         <p>Teacher</p>
                                     </div>
                                 </li>

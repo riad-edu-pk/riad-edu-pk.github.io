@@ -1,6 +1,6 @@
 ---
 title: Advanced Certificate in Graphic Design
-teacher: Abdul Wahab
+teacher: abdul
 duration: Six Months
 description: This course introduces one to the creative world of visual communication, and aims to broaden ones understanding of graphic design
 

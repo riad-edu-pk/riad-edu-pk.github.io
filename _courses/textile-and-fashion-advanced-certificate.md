@@ -1,6 +1,6 @@
 ---
 title: Advanced Certificate in Textile & Fashion Design
-teacher: Rameez Jabbar
+teacher: rameez
 duration: Six Months
 description: The course is divided into two interlinked disciplines of design that are Fashion and Textile
 

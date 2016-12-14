@@ -1,6 +1,6 @@
 ---
 title: Diploma in Textile & Fashion Design
-teacher: Rameez Jabbar
+teacher: rameez
 duration: Two Years
 description: The course is divided into two interlinked disciplines of design that are Fashion and Textile
 

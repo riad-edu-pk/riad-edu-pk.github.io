@@ -1,6 +1,6 @@
 ---
 title: Advanced Certificate in Textile & Fashion Design
-teacher: Abdul Wahab
+teacher: abdul
 duration: One Year
 description: This course introduces one to the creative world of visual communication
 

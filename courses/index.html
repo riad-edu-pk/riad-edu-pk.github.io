@@ -47,7 +47,8 @@ layout: default
                                         <span>Duration</span>
                                     </li>
                                     <li>
-                                        <h6>{{course.teacher}}</h6>
+                                        {% assign teacher = site.data.teachers[course.teacher] %}
+                                        <h6>{{teacher.name}}</h6>
                                         <span>Teacher</span>
                                     </li>
 

@@ -1,6 +1,6 @@
 ---
 title: Fine Arts
-teacher: Hira Shakoor
+teacher: hira
 duration: One Year
 description: A visual art considered to have been created primarily for aesthetic purposes and judged for its beauty and meaningfulness
 
